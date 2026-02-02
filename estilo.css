@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	margin: 0 auto;
+	width: 960px;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url(imagens/fundo.png) repeat-x top left;
+}
+
+header{
+	height: 160px;
+	background: url(imagens/detalhe-topo.png) no-repeat top right;
+	padding-top: 20px;
+}
+
+h1{
+	width: 152px;
+	height: 66px;
+	background: url(imagens/logo.png) no-repeat top left;
+	text-indent: -3000px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul#navegacao a{
+	background: url(imagens/divisor.png) repeat-y left;
+	text-decoration: none;
+	color: white;
+	font-size: 1.1em;
+	display: block;
+	line-height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+ul a.primeiro{
+	background: none;
+}
+
+ul#navegacao {
+	background: #b10333;
+	margin-top: 40px;
+	float: left;
+}
+
+ul#navegacao li{
+	float: left;
+
+}
+
+ul#navegacao a:hover{
+	color: #69001D;
+}
+
+body.pagina-inicial li.home,
+body.pagina-saude li.saude,
+body.pagina-ciencia li.ciencia,
+body.pagina-fotos li.fotos,
+body.pagina-economia li.economia,
+body.pagina-brasil li.brasil,
+body.pagina-internacional li.internacional
+{
+	background: #de003e;
+}
+
+main{
+	margin-top: 60px;
+}
+
+#tres-colunas #primario{
+	width: 335px;
+	margin: 0 15px 20px 275px;
+	float: left;
+}
+
+#primario h3{
+	background-color: #B10333;
+	color: white;
+	font-size: 0.9em;
+}
+
+#secundario h3{
+	background-color: #B10333;
+	color: black;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+#duas-colunas #primario{
+	width: 670px;
+	margin: 0 0px 20px 275px;
+	float: left;
+}
+
+#uma-coluna #primario{
+	width: 960px;
+	margin: 0 0px 20px 0px;
+	float: left;
+}
+
+#secundario{
+	width: 335px;
+	margin: 0px 0px 20px 0px ;
+	float: left;
+}
+
+#lateral{
+	width: 260px;
+	margin: 0px 15px 20px -960px ;
+	float: left;
+	padding: 5px;
+}
+
+footer{
+	background: #294C71;
+	height: 50px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	clear: both;
+}
+
+label{
+	margin-left: 5px;
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	width: 125px;
+	margin-left: 10px;
+	margin: 2px;
+	padding: 5px;
+	font-size: 0.9em;
+	color: white;
+}
+
+input.submit{
+	width: 80px;
+	color: white;
+	border: 2px solid #870529;
+	background: #870529;
+	padding: 5px;
+}
+
+.caixa{
+	margin: 10px 0px;
+	background: #f3f3f3 url(imagens/fundo-caixa.png);
+	padding:10px;
+}
+
+.caixa-conteudo{
+	background-color: white;
+}
+
+.caixa-conteudo a{
+	color: #E50040;
+}
+
+.imagem-container{
+	margin: 0 0px 10px 0px;
+	background: #DFDFDF;
+}
+
+.imagens{
+	width: 98%;
+	height: 98%;
+	padding: 1%;
+}
+
+#lateral ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+	background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+	color: #a1a1a1;
+	padding-left: 20px;
+}
+
+h2{
+	font-size: 1em;
+	background-color:#294c71;
+	padding: 3px;
+	color: white;
+	margin:10px 0px;
+}
+
+.lista-imagens li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+
+.lista-imagens li a img{
+	float: left;
+	margin: 5px;
+}
+
+.lista-imagens li a{
+	text-decoration: none;
+}
+
+.lista-imagens li a h4{
+	color: lightblue;
+	font-size: 0.8em;
+	padding: 0px;
+	color: #3e7ab9;
+}
+
+.lista-imagens li a p{
+	color: black;
+	font-size: 0.7em;
+}
+
+.lista-imagens li:hover{
+	background: #eee;
+	cursor: pointer;
+}
